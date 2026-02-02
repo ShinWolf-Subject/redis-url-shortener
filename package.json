@@ -1,0 +1,23 @@
+{
+  "name": "nv-clip-url-shortener",
+  "version": "1.0.0",
+  "description": "URL Shortener API Using Redis For Database",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "express-rate-limit": "^8.2.1",
+    "helmet": "^8.1.0",
+    "ioredis": "^5.9.1",
+    "nanoid": "^5.1.6"
+  }
+}
